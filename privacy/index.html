@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THALIVUE · Privacy Policy 隐私政策</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --paper: #F4F1E8;
+    --surface: #FFFFFF;
+    --ink: #10252B;
+    --ink-soft: rgba(16, 37, 43, 0.62);
+    --atlantic: #0B3A43;
+    --seaglass: #2E7D74;
+    --bullion: #C6A369;
+    --bullion-ink: #7A5F38;
+    --hairline: rgba(16, 37, 43, 0.12);
+    --abyss: #07161A;
+    --stage: #10262C;
+    --stage-ink: #E6F1FF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans", "Noto Sans CJK SC", "Yu Gothic UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 720px; margin: 0 auto; padding: 0 24px 96px; }
+
+  header { text-align: center; padding: 72px 0 40px; }
+  .wordmark {
+    font-family: Georgia, "Times New Roman", "Songti SC", "Hiragino Mincho ProN", serif;
+    font-size: 34px; letter-spacing: 0.32em; text-indent: 0.32em;
+    color: var(--atlantic); font-weight: 400;
+  }
+  .tagline {
+    font-size: 12px; letter-spacing: 0.28em; text-indent: 0.28em;
+    color: var(--bullion-ink); margin-top: 10px; text-transform: uppercase;
+  }
+  .rule { width: 56px; height: 1px; background: var(--bullion); margin: 28px auto 0; }
+
+  .langs { display: flex; justify-content: center; gap: 8px; margin: 32px 0 8px; flex-wrap: wrap; }
+  .langs button {
+    appearance: none; border: 1px solid var(--hairline); background: var(--surface);
+    color: var(--ink-soft); font: 13px/1 inherit; letter-spacing: 0.08em;
+    padding: 8px 18px; border-radius: 999px; cursor: pointer;
+    transition: all 0.18s ease;
+  }
+  .langs button.active {
+    background: var(--abyss); color: var(--stage-ink); border-color: var(--abyss);
+  }
+  .langs button:focus-visible { outline: 2px solid var(--seaglass); outline-offset: 2px; }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", "Songti SC", "Hiragino Mincho ProN", serif;
+    font-size: 26px; font-weight: 600; color: var(--atlantic);
+    text-align: center; margin: 40px 0 6px; letter-spacing: 0.02em;
+  }
+  .effective { text-align: center; font-size: 13px; color: var(--ink-soft); margin-bottom: 40px; }
+
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+
+  .callout {
+    background: var(--stage); color: var(--stage-ink);
+    border-radius: 14px; padding: 26px 28px; margin: 0 0 32px;
+    border: 1px solid rgba(198, 163, 105, 0.45);
+  }
+  .callout .gold {
+    font-family: Georgia, "Times New Roman", "Songti SC", "Hiragino Mincho ProN", serif;
+    color: var(--bullion); font-size: 19px; font-weight: 600;
+    display: block; margin-bottom: 8px; letter-spacing: 0.02em;
+  }
+  .callout p { font-size: 15px; line-height: 1.8; color: var(--stage-ink); }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", "Songti SC", "Hiragino Mincho ProN", serif;
+    font-size: 19px; font-weight: 600; color: var(--atlantic);
+    margin: 40px 0 12px; padding-top: 24px; border-top: 1px solid var(--hairline);
+  }
+  h2 .no { color: var(--bullion-ink); font-size: 14px; letter-spacing: 0.15em; margin-right: 10px; }
+  p { margin-bottom: 14px; font-size: 15.5px; }
+  ul { margin: 0 0 16px 1.2em; }
+  li { margin-bottom: 10px; font-size: 15.5px; }
+  li::marker { color: var(--bullion-ink); }
+  .muted { color: var(--ink-soft); font-size: 14px; }
+  a { color: var(--seaglass); text-decoration: none; border-bottom: 1px solid rgba(46, 125, 116, 0.35); }
+  a:hover { border-bottom-color: var(--seaglass); }
+  code {
+    font: 13px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: rgba(11, 58, 67, 0.07); padding: 1px 6px; border-radius: 4px;
+  }
+  footer {
+    margin-top: 64px; padding-top: 28px; border-top: 1px solid var(--hairline);
+    text-align: center; font-size: 12px; letter-spacing: 0.18em; color: var(--ink-soft);
+    text-transform: uppercase;
+  }
+  footer .dot { color: var(--bullion); padding: 0 8px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="wordmark">THALIVUE</div>
+    <div class="tagline">Your dive life, yours alone</div>
+    <div class="rule"></div>
+  </header>
+
+  <nav class="langs" aria-label="Language">
+    <button data-lang="zh" class="active">中文</button>
+    <button data-lang="en">English</button>
+    <button data-lang="ja">日本語</button>
+  </nav>
+
+  <!-- ============ 中文 ============ -->
+  <section class="lang-section active" id="zh">
+    <h1>隐私政策</h1>
+    <p class="effective">生效日期：2026 年 10 月</p>
+
+    <div class="callout">
+      <span class="gold">我们不收集任何数据。</span>
+      <p>THALIVUE 完全离线运行。没有账户，没有服务器，没有跟踪。你的潜水人生只属于你。</p>
+    </div>
+
+    <h2><span class="no">01</span>我们是谁</h2>
+    <p>THALIVUE（"本应用"）是一款完全离线的潜水日志与数字护照应用，在 Apple App Store 发行，标识符 <code>com.lulle.thalivue</code>。本政策说明本应用如何处理数据——按照设计，答案是：几乎不处理。</p>
+
+    <h2><span class="no">02</span>数据总述</h2>
+    <p>本应用不收集、不传输、不处理任何个人数据：</p>
+    <ul>
+      <li>无账户、无注册、无邮箱收集</li>
+      <li>无分析统计、无行为跟踪、无广告、无广告标识符（IDFA）</li>
+      <li>无第三方 SDK、无数据中介、无我们的云端服务器</li>
+    </ul>
+    <p>你的潜水记录、照片与设置只存在于你的设备上。不存在任何一台属于我们的服务器存放你的数据。</p>
+
+    <h2><span class="no">03</span>权限用途</h2>
+    <ul>
+      <li><strong>照片库（仅写入）</strong>：仅当你选择将潜水分享卡或 PDF 护照保存到相册时使用。本应用从不读取你的照片库。</li>
+      <li><strong>照片导入</strong>：通过 Apple 系统照片选择器进行，本应用只接收你主动选择的照片。</li>
+      <li><strong>位置（使用期间）</strong>：仅用于在你请求时建议附近潜点。位置仅在设备上即时使用，不存储、不上传。</li>
+    </ul>
+
+    <h2><span class="no">04</span>关于 Pro 内购</h2>
+    <p>THALIVUE Pro 的购买与退款完全由 Apple 处理。我们看不到你的姓名、支付信息或购买记录。适用 Apple 标准<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">最终用户许可协议（EULA）</a>。购买可通过你的 Apple ID 在任意设备上恢复。</p>
+
+    <h2><span class="no">05</span>数据存储与你的控制</h2>
+    <p>全部数据（潜水记录、潜点、照片、偏好）仅存储在本机设备。<strong>删除本应用即彻底删除全部数据。</strong>导出文件（CSV / UDDF / PDF）是普通文件，由你自主管理——发送到哪里是你的选择，与我们无关。如果你开启了 iCloud 设备备份，备份数据受 Apple 备份机制保护，我们无法访问。</p>
+
+    <h2><span class="no">06</span>儿童隐私</h2>
+    <p>THALIVUE 分级为 4+。我们不收集任何人的任何数据。</p>
+
+    <h2><span class="no">07</span>政策变更与联系</h2>
+    <p>本政策可能随版本更新修订，当前版本始终发布于本页。如有疑问，请联系：<a href="mailto:styr12@163.com">styr12@163.com</a></p>
+  </section>
+
+  <!-- ============ English ============ -->
+  <section class="lang-section" id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="effective">Effective date: October 2026</p>
+
+    <div class="callout">
+      <span class="gold">We collect nothing.</span>
+      <p>THALIVUE works completely offline. No accounts. No servers. No tracking. Your dive life belongs to you alone.</p>
+    </div>
+
+    <h2><span class="no">01</span>Who we are</h2>
+    <p>THALIVUE (the "app") is a fully offline dive logbook and digital passport, distributed on the Apple App Store under the identifier <code>com.lulle.thalivue</code>. This policy explains how the app handles data — which, by design, is barely at all.</p>
+
+    <h2><span class="no">02</span>Data, in summary</h2>
+    <p>The app does not collect, transmit, or process any personal data:</p>
+    <ul>
+      <li>No accounts, no sign-in, no email collection</li>
+      <li>No analytics, no behavioral tracking, no advertising, no ad identifiers (IDFA)</li>
+      <li>No third-party SDKs, no data brokers, no cloud servers of ours</li>
+    </ul>
+    <p>Your dive log, photos and settings exist on your device only. There is no server of ours where your data could exist.</p>
+
+    <h2><span class="no">03</span>Permissions</h2>
+    <ul>
+      <li><strong>Photo library (add only)</strong> — used when you choose to save a dive share card or PDF passport to your photos. The app never reads your photo library.</li>
+      <li><strong>Photo import</strong> — you pick photos through Apple's system photo picker; the app receives only the photos you select.</li>
+      <li><strong>Location (while using)</strong> — used only to suggest nearby dive sites when you ask. Location is used on-device in the moment; it is never stored or uploaded.</li>
+    </ul>
+
+    <h2><span class="no">04</span>About Pro (in-app purchases)</h2>
+    <p>THALIVUE Pro purchases and refunds are handled entirely by Apple. We never see your name, payment details, or purchase records. Apple's standard <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">End User License Agreement</a> applies. Purchases can be restored on any device with your Apple ID.</p>
+
+    <h2><span class="no">05</span>Where your data lives, and your control</h2>
+    <p>All data (dives, sites, photos, preferences) is stored on this device only. <strong>Deleting the app permanently deletes all of it.</strong> Exports (CSV / UDDF / PDF) are ordinary files you control — wherever you send them is your choice, not ours. If you use iCloud device backup, your backup is governed by Apple's backup mechanism; we have no access to it.</p>
+
+    <h2><span class="no">06</span>Children</h2>
+    <p>THALIVUE is rated 4+. We collect no data from anyone, of any age.</p>
+
+    <h2><span class="no">07</span>Changes &amp; contact</h2>
+    <p>This policy may be revised with app updates; the current version always lives on this page. Questions: <a href="mailto:styr12@163.com">styr12@163.com</a></p>
+  </section>
+
+  <!-- ============ 日本語 ============ -->
+  <section class="lang-section" id="ja" lang="ja">
+    <h1>プライバシーポリシー</h1>
+    <p class="effective">発効日：2026 年 10 月</p>
+
+    <div class="callout">
+      <span class="gold">当アプリはデータを収集しません。</span>
+      <p>THALIVUE は完全オフラインで動作します。アカウントも、サーバーも、トラッキングもありません。あなたのダイビング人生は、あなただけのものです。</p>
+    </div>
+
+    <h2><span class="no">01</span>私たちについて</h2>
+    <p>THALIVUE（以下「本アプリ」）は、完全オフラインで動作するダイビングログ＆デジタルパスポートです。App Store にて識別子 <code>com.lulle.thalivue</code> で配信されています。本ポリシーは、本アプリがデータをどのように扱うかを説明するものです——その答えは、設計上「ほとんど扱いません」です。</p>
+
+    <h2><span class="no">02</span>データの概要</h2>
+    <p>本アプリは、いかなる個人データも収集・送信・処理しません：</p>
+    <ul>
+      <li>アカウントなし・登録なし・メールアドレスの収集なし</li>
+      <li>アクセス解析なし・行動トラッキングなし・広告なし・広告識別子（IDFA）なし</li>
+      <li>サードパーティ SDK なし・データブローカーなし・当社運営のクラウドサーバーなし</li>
+    </ul>
+    <p>あなたのダイブログ、写真、設定はあなたの端末にのみ存在します。あなたのデータが存在しうる、当社のサーバーはどこにもありません。</p>
+
+    <h2><span class="no">03</span>権限の用途</h2>
+    <ul>
+      <li><strong>写真ライブラリ（追加のみ）</strong>：ダイブのシェアカードや PDF パスポートを「写真」に保存するとき、あなたが選択した場合にのみ使用します。本アプリが写真ライブラリを読み取ることはありません。</li>
+      <li><strong>写真の読み込み</strong>：Apple 標準の写真ピッカーを通じて行われ、本アプリはあなたが選んだ写真のみを受け取ります。</li>
+      <li><strong>位置情報（使用中のみ）</strong>：あなたが求めたときに近くのダイブサイトを提案するためだけに使用します。位置情報は端末上でその場限りに使われ、保存も送信もされません。</li>
+    </ul>
+
+    <h2><span class="no">04</span>Pro（アプリ内課金）について</h2>
+    <p>THALIVUE Pro の購入および返金は、すべて Apple によって処理されます。当社は、あなたのお名前・支払い情報・購入記録のいずれも確認できません。Apple の標準<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">エンドユーザーライセンス契約（EULA）</a>が適用されます。購入内容は、お使いの Apple ID でどの端末からでも復元できます。</p>
+
+    <h2><span class="no">05</span>データの保存と、あなたのコントロール</h2>
+    <p>すべてのデータ（ダイブ記録・サイト・写真・設定）は、この端末にのみ保存されます。<strong>アプリを削除すれば、すべてのデータは完全に消去されます。</strong>エクスポートファイル（CSV / UDDF / PDF）はあなたが管理する通常のファイルです——どこへ送るかはあなたの選択であり、当社は関与しません。iCloud デバイスバックアップをご利用の場合、バックアップは Apple のバックアップ機構に従い、当社はアクセスできません。</p>
+
+    <h2><span class="no">06</span>お子さまのプライバシー</h2>
+    <p>THALIVUE のレーティングは 4+ です。当社は、いかなる年齢の方からもデータを収集しません。</p>
+
+    <h2><span class="no">07</span>ポリシーの変更とお問い合わせ</h2>
+    <p>本ポリシーはアプリの更新に伴い改訂される場合があります。最新版は常に本ページに掲載されます。ご質問は：<a href="mailto:styr12@163.com">styr12@163.com</a></p>
+  </section>
+
+  <footer>
+    THALIVUE<span class="dot">◆</span>Privacy Policy<span class="dot">◆</span>styr12@163.com
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.langs button');
+    var sections = document.querySelectorAll('.lang-section');
+    var nav = {
+      zh: 'zh', 'zh-hans': 'zh', 'zh-cn': 'zh', 'zh-tw': 'zh',
+      en: 'en',
+      ja: 'ja', 'ja-jp': 'ja'
+    };
+    function show(lang) {
+      sections.forEach(function (s) { s.classList.toggle('active', s.id === lang); });
+      buttons.forEach(function (b) { b.classList.toggle('active', b.dataset.lang === lang); });
+      document.documentElement.lang = lang === 'en' ? 'en' : (lang === 'ja' ? 'ja' : 'zh-Hans');
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { show(b.dataset.lang); });
+    });
+    var guess = nav[(navigator.language || 'en').toLowerCase()];
+    if (guess && guess !== 'zh') show(guess);
+  })();
+</script>
+</body>
+</html>
